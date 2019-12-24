@@ -4,6 +4,10 @@ body {
 
 /*------------------------------------------------------- Colors    */
 
+/*------------------------------------------------------- Box special    */
+
+
+
 
 /*------------------------------------------------------- headings    */
 h1 {
@@ -21,10 +25,10 @@ h5 {
 /*------------------------------------------------------- Navbar    */
 
 .navbar-container {
-    position: fixed;
+    position: sticky;
+    z-index: 1;
     top: 0;
     left: 0;
-    z-index: 1;
     padding-left: 0;
     padding-right: 0;
     background-color: #84b0c2;
@@ -71,7 +75,7 @@ h5 {
 /*------------------------------------------------------- Section    */
 
 section {
-    padding-top: 60px;
+    padding-top: 5px;
 }
 
 .appStoreLink-sm {
@@ -81,6 +85,7 @@ section {
 h1 {
     font-family: 'Merriweather', serif;
     font-weight: 300;
+    padding-top: 6px;
 }
 
 .tagline {
@@ -93,6 +98,7 @@ p {
 }
 
 
+
 /*------------------------------------------------------- Footer    */
 
 #footer-details {
@@ -102,3 +108,4 @@ p {
 footer p {
     font-size: 14px;
 }
+
