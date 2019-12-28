@@ -24,6 +24,13 @@ hr {
 h1 {
     font-family: 'Merriweather', serif;
     font-weight: 300;
+    font-size: 26px;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 h5 {
@@ -111,6 +118,10 @@ p {
     font-size: 16px;
 }
 
+.align-right {
+    text-align: right;
+}
+
 .distance {
     height: 20px;
 }
@@ -121,7 +132,8 @@ p {
     display: block;
     background-image: url("/assets/images/background/tracks-home.png");
     background-size: cover;
-    border-radius: 50%;    Ï
+    border-radius: 50%;
+    box-shadow: 0 0 6px #fff
 }
 
 
