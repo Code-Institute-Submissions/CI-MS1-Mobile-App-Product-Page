@@ -12,10 +12,15 @@ body {
 /*------------------------------------------------------- Box special    */
 
 hr {
-
   border: 0.5px solid #212121;;
-
 }
+
+.pages-title {
+    padding-top: 20px;
+    text-align: center;
+}
+
+
 
 
 
@@ -24,13 +29,15 @@ hr {
 h1 {
     font-family: 'Merriweather', serif;
     font-weight: 300;
-    font-size: 26px;
+    font-size: 33px;
+    padding-bottom: 20px;
 }
 
 h2 {
     font-family: 'Merriweather', serif;
     font-weight: 300;
     font-size: 20px;
+    padding-bottom: 10px;
 }
 
 h5 {
@@ -43,19 +50,15 @@ h5 {
 /*------------------------------------------------------- Navbar    */
 
 .navbar-container {
-    position: sticky;
+
     z-index: 1;
+    background-color: #84b0c2;
+    
     top: 0;
     left: 0;
     padding-left: 0;
     padding-right: 0;
-    background-color: #84b0c2;
     margin-bottom: 10px;
-
-    /*
-    border-bottom: 0.5px solid #212121;
-    box-shadow: 0 6px 3px -3px #212121;
-    */
 
 }
 
@@ -68,7 +71,7 @@ h5 {
     text-transform: uppercase;
     font-family: 'Blinker', sans-serif;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .navbar-dark .navbar-nav .active > .nav-link {
@@ -85,12 +88,12 @@ h5 {
 }
 
 #logo {
-    margin: 4px;
+    margin: 4px 15px 4px;
 }
 
 .appstore-link {
     display: block;
-    margin: 4px 4px 4px auto;
+    margin: 4px 15px 4px auto;
 }
 
 .navbar-nav {
@@ -101,16 +104,12 @@ h5 {
 /*------------------------------------------------------- Section    */
 
 section {
-    padding-top: 5px;
+    padding-top: 50px;
 }
 
 .appStoreLink-sm {
     text-align: center;
     margin: 8px;
-}
-
-.tagline {
-    font-size: 30px;
 }
 
 p {
@@ -137,16 +136,126 @@ p {
 }
 
 
+/*------------------------------------------------------- Features    */
+
+.features-preview {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background-size: cover;
+    background-color: #fac481;
+    
+    margin-bottom: 30px;
+    transition: transform 0.2s;
+}
+
+.features-preview:hover {
+    transform: scale(1.2);
+    
+}
+
+.features-preview.general {
+    background-image: url("/assets/images/screenshots-features/general.png");
+}
+
+.features-preview.privacy {
+    background-image: url("/assets/images/screenshots-features/privacy.png");
+}
+
+.features-preview.calendar {
+    background-image: url("/assets/images/screenshots-features/calendar.png");
+}
+
+.features-preview.buttons {
+    background-image: url("/assets/images/screenshots-features/buttons.png");
+}
+
+.features-preview.change {
+    background-image: url("/assets/images/screenshots-features/change.png");
+}
+
+.features-preview.new {
+    background-image: url("/assets/images/screenshots-features/new.png");
+}
+
+
+
+/*------------------------------------------------------- Manual    */
+
+.content {
+    list-style-type: none;
+    padding-left: 0;
+    font-family: 'Blinker', sans-serif;
+}
+
+.topics {
+    color: white;
+    padding-left: 0;
+}
+
+.topics:hover {
+    color: #fac481;
+
+}
+
+.selected-topic {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #fac481;
+    background-color: #fac481;
+    padding-left: 0;
+    color: #212121;
+}
+
+.faicons {
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+}
+
+.selected-topic:hover {
+    color: white;
+}
+
+
+/*------------------------------------------------------- Form    */
+
+.form-item {
+    font-family: 'Blinker', sans-serif;
+    font-size: 16px;
+    color: #212121;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
+}
 
 
 
 /*------------------------------------------------------- Footer    */
 
 #footer-details {
-    color: #fff;
+    color: #212121;
 }
 
 footer p {
     font-size: 14px;
 }
 
+
+
+@media screen and (max-width : 320px) {
+    h1 {
+    font-size: 24px;
+    padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width : 992px) {
+    h1 {
+    font-size: 28px;
+    padding-bottom: 10px;
+    }
+}
