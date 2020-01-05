@@ -202,9 +202,8 @@ p {
 
 .selected-topic {
     border-style: solid;
-    border-width: 1px;
+    border-width: 0px;
     border-radius: 10px;
-    border-color: #fac481;
     background-color: #fac481;
     padding-left: 0;
     color: #212121;
