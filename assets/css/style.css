@@ -6,6 +6,7 @@ body {
 /*------------------------------------------------------- Colors    */
 
 .orange-highlight {
+    animation: fadeToOrange 1s;
     color: #fac481;
 }
 
@@ -13,6 +14,7 @@ body {
 
 hr {
   border: 0.5px solid #212121;
+  margin-top: 2px;
 }
 
 .pages-title {
@@ -30,19 +32,22 @@ h1 {
     font-family: 'Merriweather', serif;
     font-weight: 300;
     font-size: 33px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 h2 {
     font-family: 'Merriweather', serif;
-    font-weight: 300;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 22px;
     padding-bottom: 10px;
+    padding-top: 15px;
+    animation: fadeToOrange 1s;
+    color: #fac481;
 }
 
 h5 {
     font-family: 'Merriweather', serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
 }
 
@@ -114,7 +119,7 @@ section {
 
 p {
     font-family: 'Blinker', sans-serif;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .align-right {
@@ -168,46 +173,54 @@ p {
 }
 
 .features-preview {
-    width: 150px;
-    height: 150px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 60px;
     border-radius: 50%;
     background-size: cover;
     background-color: darkgrey;
-    margin-bottom: 30px;
     transition: transform 0.2s;
-    border: 1px solid #fac481;
+    box-shadow: 0 0 6px #fff;
 }
 
 .features-preview:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     
 }
 
 .features-preview.general {
     background-image: url("/assets/images/screenshots-features/general.png");
+    float: right;
 }
 
 .features-preview.privacy {
     background-image: url("/assets/images/screenshots-features/privacy.png");
-}
-
-.features-preview.calendar {
-    background-image: url("/assets/images/screenshots-features/calendar.png");
-}
-
-.features-preview.buttons {
-    background-image: url("/assets/images/screenshots-features/buttons.png");
-}
-
-.features-preview.change {
-    background-image: url("/assets/images/screenshots-features/change.png");
+    float: right;
 }
 
 .features-preview.new {
     background-image: url("/assets/images/screenshots-features/new.png");
+    float: left;
 }
+
+.features-preview.calendar {
+    background-image: url("/assets/images/screenshots-features/calendar.png");
+    float: left;
+}
+
+.features-preview.buttons {
+    background-image: url("/assets/images/screenshots-features/buttons.png");
+    float: left;
+}
+
+.features-preview.change {
+    background-image: url("/assets/images/screenshots-features/change.png");
+    float: right;
+}
+
+
 
 
 
@@ -217,6 +230,7 @@ p {
     list-style-type: none;
     padding-left: 0;
     font-family: 'Blinker', sans-serif;
+    font-size: 13pt;
 }
 
 .pic-container {
@@ -290,13 +304,46 @@ footer p {
 @media screen and (max-width : 320px) {
     h1 {
     font-size: 24px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    }
+
+    h2 {
+    font-size: 17px;
+    }
+
+    .features-preview {
+    width: 130px;
+    height: 130px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    }
+
+    p {
+    font-size: 16px;
+    }
+}
+
+@media screen and (max-width : 576px) {
+ h2 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
     }
 }
 
 @media screen and (max-width : 992px) {
     h1 {
-    font-size: 28px;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
     }
+
+    .features-preview {
+    width: 150px;
+    height: 150px;
+    }
+}
+
+@keyframes fadeToOrange {
+    from {color: #212121}
+    to {color: #fac481;}
 }
