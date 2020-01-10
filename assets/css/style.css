@@ -12,7 +12,7 @@ body {
 /*------------------------------------------------------- Box special    */
 
 hr {
-  border: 0.5px solid #212121;;
+  border: 0.5px solid #212121;
 }
 
 .pages-title {
@@ -138,6 +138,35 @@ p {
 
 /*------------------------------------------------------- Features    */
 
+.features-bg {
+    background-size: cover;
+    background-position: center;
+}
+
+.features-bg.general {
+    background-image: url("/assets/images/bg-features/general.png");
+}
+
+.features-bg.privacy {
+    background-image: url("/assets/images/bg-features/privacy.png");
+}
+
+.features-bg.calendar {
+    background-image: url("/assets/images/bg-features/calendar.png");
+}
+
+.features-bg.buttons {
+    background-image: url("/assets/images/bg-features/buttons.png");
+}
+
+.features-bg.change {
+    background-image: url("/assets/images/bg-features/change.png");
+}
+
+.features-bg.new {
+    background-image: url("/assets/images/bg-features/new.png");
+}
+
 .features-preview {
     width: 150px;
     height: 150px;
@@ -145,10 +174,10 @@ p {
     margin-right: auto;
     border-radius: 50%;
     background-size: cover;
-    background-color: #fac481;
-    
+    background-color: darkgrey;
     margin-bottom: 30px;
     transition: transform 0.2s;
+    border: 1px solid #fac481;
 }
 
 .features-preview:hover {
@@ -190,6 +219,19 @@ p {
     font-family: 'Blinker', sans-serif;
 }
 
+.pic-container {
+    background-color: white;
+    max-height: 768px;
+    border-radius: 20px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.pic-description {
+    border-radius: 20px;
+    max-width: 100%
+}
+
 .topics {
     color: white;
     padding-left: 0;
@@ -201,8 +243,7 @@ p {
 }
 
 .selected-topic {
-    border-style: solid;
-    border-width: 0px;
+
     border-radius: 10px;
     background-color: #fac481;
     padding-left: 0;
@@ -237,6 +278,7 @@ p {
 
 #footer-details {
     color: #212121;
+    margin-top: 30px;
 }
 
 footer p {
