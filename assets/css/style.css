@@ -10,6 +10,11 @@ body {
     color: #fac481;
 }
 
+p {
+    font-family: 'Blinker', sans-serif;
+    font-size: 17px;
+}
+
 /*------------------------------------------------------- Box special    */
 
 hr {
@@ -52,8 +57,7 @@ h5 {
 /*------------------------------------------------------- Navbar    */
 
 .navbar-container {
-    z-index: 1;
-    background-color: #84b0c2;
+    z-index: 3;
     
     top: 0;
     left: 0;
@@ -93,12 +97,24 @@ h5 {
 }
 
 #logo {
-    margin: 4px 15px 4px;
+    padding: 0.5rem;
+    height: 80px;
+}
+
+#logo-container {
+    padding: 0;
+    z-index: 2;
+}
+
+.header-bg {
+    height: 64px;
+    z-index: 1;
+    background-color: #84b0c2;
 }
 
 .appstore-link {
     display: block;
-    margin: 4px 15px 4px auto;
+    margin: 4px 4px 4px auto;
 }
 
 .navbar-nav {
@@ -109,7 +125,7 @@ h5 {
 /*------------------------------------------------------- Section    */
 
 section {
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 .appStoreLink-sm {
@@ -117,17 +133,18 @@ section {
     margin: 8px;
 }
 
-p {
-    font-family: 'Blinker', sans-serif;
-    font-size: 17px;
-}
+
 
 .align-right {
     text-align: right;
 }
 
-.distance {
-    height: 20px;
+.tagline {
+    padding: 60px 0px 25px;
+}
+
+.description {
+    padding-top: 20px;
 }
 
 .train-picture:before {
@@ -286,6 +303,12 @@ p {
     
 }
 
+.btn-send {
+    color: #212121;
+    background-color: #fac481;
+    border-color: #fac481;
+}
+
 
 
 /*------------------------------------------------------- Footer    */
@@ -343,22 +366,33 @@ footer hr {
 }
 
 @media screen and (max-width : 576px) {
- h2 {
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    padding-top: 0px;
+    h2 {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+    }
+    .header-bg {
+        height: 50px;
+    }
+}
+
+@media screen and (max-width : 832px) {
+     #logo {
+        height: 55px;
     }
 }
 
 @media screen and (max-width : 992px) {
     h1 {
-    padding-bottom: 25px;
+        padding-bottom: 25px;
     }
 
     .features-preview {
-    width: 150px;
-    height: 150px;
+        width: 150px;
+        height: 150px;
     }
+    
+
 }
 
 @keyframes fadeToOrange {
