@@ -18,8 +18,28 @@ Explain why this App is easier and faster to use than other calendar Apps, prese
 Use of a common tree structure type: Navigation bar and 4 sections which are all accessible from anywhere on the page, answering the following questions: - Home (Why?) - Key Features (What?) - Manual  (How?) - Contact form and personal information (Who?) - App Store download link (Where?)
 
 ### Skeleton
---- Wireframe (not done yet)
+[Wireframes](/Wireframes.pdf)
 
 ### Surface
 The App is meant to make it easier to use a Calendar on the iPhone. Therefore, the design is also very simple and clear, with minimum of color, which directs the viewer's focus on product images and the actual text.
 
+## Technologies
+
+1. HTML
+2. CSS
+3. Bootstrap (4.4.1)
+4. Google Fonts - Fonts "Merriweather" and "Blinker"
+5. Font Awesome (5.11.2)
+6. Gitpod
+7. Github, and git for version control
+8. Pages and Keynote, Graphic Converter
+
+## Features
+
+The website has 4 main sections. A navigation menu on top collapses with the help of Bootstrap. Bootstrap is also usied for the image carousel on the home page.
+
+## Credits
+
+### Media
+
+The rail track pictures on the home page are from pixabay (pixabay.com)
