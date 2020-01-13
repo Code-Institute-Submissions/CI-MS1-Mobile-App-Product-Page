@@ -22,25 +22,22 @@ hr {
   margin-top: 2px;
 }
 
-.pages-title {
-    padding-top: 20px;
-    text-align: center;
-}
-
-
-
 /*------------------------------------------------------- headings    */
 h1 {
     font-family: 'Merriweather', serif;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 33px;
-    padding-bottom: 25px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 h2 {
     font-family: 'Merriweather', serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 22px;
+    letter-spacing: 1px;
     padding-bottom: 10px;
     padding-top: 15px;
     animation: fadeToOrange 1s;
@@ -49,8 +46,9 @@ h2 {
 
 h5 {
     font-family: 'Merriweather', serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14px;
+    letter-spacing: 1px;
 }
 
 
@@ -285,6 +283,7 @@ section {
 
 .download-icon {
     font-size: 19pt;
+    padding-top: 20px;
 }
 
 .manual-toggler {
