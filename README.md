@@ -36,10 +36,26 @@ The App is meant to make it easier to use a Calendar on the iPhone. Therefore, t
 
 ## Features
 
-The website has 4 main sections. A navigation menu on top collapses with the help of Bootstrap. Bootstrap is also usied for the image carousel on the home page.
+### Current features
+
+The website has 4 main sections. A navigation menu on top collapses with the help of Bootstrap. Bootstrap is also usied for the image carousel on the home page. A click/tap on the "Send"-Button on the form sends the information to the email address: basicday@c-ronics.com
+
+### Planned features
+
+- Active link to the App Store (once the App is online)
+- A news section at the bottom of the homepage (eg. for release notes)
+
+## Deployment
+
 
 ## Credits
 
 ### Media
 
 The rail track pictures on the home page are from pixabay (pixabay.com)
+
+### Code
+
+Besides the Code Institute Walkthrough projects, I often consultet stackoverflow.com and w3schools.com for help.
+
+Special thanks to Hassan Sheikh (https://www.youtube.com/watch?v=FTOT73CJ6pM) for the helpful tutorial on how to create a php file for sending a HTML from to an email address.

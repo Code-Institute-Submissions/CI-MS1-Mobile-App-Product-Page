@@ -313,8 +313,9 @@ h5 {
 .btn-send {
     color: #212121;
     background-color: #fac481;
-    border-color: #fac481;
+    
     margin-bottom: 25px;
+    border-radius: 10px;
 }
 
 p.disclaimer {
@@ -367,9 +368,6 @@ footer hr {
         margin-bottom: 15px;
     }
 
-    p {
-        font-size: 16px;
-    }
 }
 
 @media screen and (max-width : 576px) {
@@ -387,9 +385,6 @@ footer hr {
         height: 50px;
     }
 
-    .form-item {
-        font-size: 16px;
-    }
 }
 
 @media screen and (max-width : 832px) {
@@ -403,6 +398,14 @@ footer hr {
     .features-preview {
         width: 150px;
         height: 150px;
+    }
+
+      p {
+        font-size: 16px;
+    }
+
+    .form-item {
+        font-size: 16px;
     }
     
 
