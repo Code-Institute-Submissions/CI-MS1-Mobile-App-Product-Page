@@ -58,17 +58,20 @@ h5 {
 
 .navbar-container {
     z-index: 3;
-    
     top: 0;
     left: 0;
     padding-left: 0;
     padding-right: 0;
     margin-bottom: 10px;
-
+    background-color: #84b0c2;
 }
 
 .navbar-toggler {
     border: 0;
+}
+
+.navbar {
+    padding: 5px 15px;
 }
 
 .nav-font .navbar-nav a {
@@ -97,24 +100,12 @@ h5 {
 }
 
 #logo {
-    padding: 0.5rem;
-    height: 80px;
-}
-
-#logo-container {
-    padding: 0;
-    z-index: 2;
-}
-
-.header-bg {
-    height: 64px;
-    z-index: 1;
-    background-color: #84b0c2;
+    height: 65px;
 }
 
 .appstore-link {
     display: block;
-    margin: 4px 4px 4px auto;
+   
 }
 
 .navbar-nav {
@@ -391,7 +382,7 @@ footer hr {
 
 @media screen and (max-width : 832px) {
      #logo {
-        height: 55px;
+        height: 50px;
     }
 }
 
