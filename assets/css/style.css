@@ -12,7 +12,8 @@ body {
 
 p {
     font-family: 'Blinker', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 /*------------------------------------------------------- Box special    */
@@ -20,6 +21,10 @@ p {
 hr {
   border: 0.5px solid #212121;
   margin-top: 2px;
+}
+
+section {
+    padding-top: 70px;
 }
 
 /*------------------------------------------------------- headings    */
@@ -111,29 +116,26 @@ h5 {
 }
 
 
-/*------------------------------------------------------- Section    */
+/*------------------------------------------------------- Home    */
 
-section {
-    padding-top: 70px;
-}
 
 .appStoreLink-sm {
     text-align: center;
     margin: 8px;
 }
 
-
-
 .align-right {
     text-align: right;
 }
 
-.tagline {
-    padding: 60px 0px 25px;
-}
-
 .description {
     padding-top: 20px;
+}
+
+.train-picture-wrapper {
+    max-width: 70vh; 
+    text-align: center;
+    margin: auto;
 }
 
 .train-picture:before {
@@ -143,7 +145,13 @@ section {
     background-image: url("/assets/images/background/tracks-home.png");
     background-size: cover;
     border-radius: 50%;
-    box-shadow: 0 0 6px #fff
+    box-shadow: 0 0 6px #fff;
+}
+
+
+
+.screenshots-sm {
+    width: 24%;
 }
 
 
@@ -226,17 +234,13 @@ section {
     float: right;
 }
 
-
-
-
-
 /*------------------------------------------------------- Manual    */
 
 .content {
     list-style-type: none;
     padding-left: 0;
     font-family: 'Blinker', sans-serif;
-    font-size: 12pt;
+    font-size: 13pt;
 }
 
 .pic-container {
@@ -299,10 +303,10 @@ section {
 
 .form-item {
     font-family: 'Blinker', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #212121;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     
 }
 
@@ -310,6 +314,11 @@ section {
     color: #212121;
     background-color: #fac481;
     border-color: #fac481;
+    margin-bottom: 25px;
+}
+
+p.disclaimer {
+    font-size: 11pt;
 }
 
 
@@ -359,7 +368,7 @@ footer hr {
     }
 
     p {
-    font-size: 16px;
+        font-size: 16px;
     }
 }
 
@@ -376,6 +385,10 @@ footer hr {
     }
     .header-bg {
         height: 50px;
+    }
+
+    .form-item {
+        font-size: 16px;
     }
 }
 
