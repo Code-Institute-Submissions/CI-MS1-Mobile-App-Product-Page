@@ -75,21 +75,25 @@
 
 	<section>
 		<div class="container-xl">
-			<div class="appStoreLink-sm d-sm-block d-md-none">
-				<a href="#"><img src="assets/images/appStoreBadge-US-GB.svg" alt="App Store"></a>
-			</div>
+			<h1 class="pages-title">Manual
+				<span class="d-sm-none"> - Interface</span>
 
-			<h1 class="pages-title">Manual</h1>
+			</h1>
 
 			<div class="row">
 				<div class="col-sm-5 col-md-4">
 
 					<nav class="nav-font navbar-light navbar-expand-sm">
 
-						<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#topicsDropdown" aria-controls="topicsDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <p><span class="navbar-toggler-icon"></span>Choose a topic</p>
+					<button class="navbar-toggler ml-auto manual-toggler" type="button" data-toggle="collapse" data-target="#topicsDropdown" aria-controls="topicsDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <p class="topics"><i class="fas fa-chevron-down"></i> Choose topic</p>
 
                     </button>
+
+                    <a class="topics d-sm-none downloadpdf-small" href="#">
+						<i class="fas fa-file-download"></i> PDF Manual
+					</a>
+                    
 
 						<div class="collapse navbar-collapse" id="topicsDropdown">
 							<ul class="content">
@@ -124,6 +128,11 @@
 						</div>
 					</nav>
 
+					<hr class="d-none d-sm-block">
+					<a class="topics d-none d-sm-block text-center" href="#">
+						<i class="fas fa-file-download download-icon"></i><br>PDF Manual
+					</a>
+
 				</div>
 				<div class="col-sm-7 col-md-8">
 					<div class="pic-container">
@@ -132,6 +141,9 @@
 
                     </div>
 					</div>
+				</div>
+				<div class="appStoreLink-sm d-sm-block d-md-none">
+					<a href="#"><img src="assets/images/appStoreBadge-US-GB.svg" alt="App Store"></a>
 				</div>
 			</div>
 	</section>

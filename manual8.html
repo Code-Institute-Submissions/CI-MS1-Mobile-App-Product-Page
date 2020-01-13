@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
 	<link
 		href="https://fonts.googleapis.com/css?family=Blinker:300,400,600,700|Merriweather:300,300i,400,400i,700,700i&display=swap"
 		rel="stylesheet">
@@ -75,21 +75,22 @@
 
 	<section>
 		<div class="container-xl">
-			<div class="appStoreLink-sm d-sm-block d-md-none">
-				<a href="#"><img src="assets/images/appStoreBadge-US-GB.svg" alt="App Store"></a>
-			</div>
 
-			<h1 class="pages-title">Manual</h1>
+			<h1 class="pages-title">Manual<span class="d-sm-none"> - Create a new event</span></h1>
 
 			<div class="row">
 				<div class="col-sm-5 col-md-4">
 
 					<nav class="nav-font navbar-light navbar-expand-sm">
 
-						<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#topicsDropdown" aria-controls="topicsDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <p><span class="navbar-toggler-icon"></span> Choose a topic</p>
+						<button class="navbar-toggler ml-auto manual-toggler" type="button" data-toggle="collapse" data-target="#topicsDropdown" aria-controls="topicsDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <p class="topics"><i class="fas fa-chevron-down"></i> Choose topic</p>
 
                     </button>
+
+						<a class="topics d-sm-none downloadpdf-small" href="#">
+							<i class="fas fa-file-download"></i> PDF Manual
+						</a>
 
 						<div class="collapse navbar-collapse" id="topicsDropdown">
 							<ul class="content">
@@ -124,7 +125,10 @@
 						</div>
 					</nav>
 
-
+					<hr class="d-none d-sm-block">
+					<a class="topics d-none d-sm-block text-center" href="#">
+						<i class="fas fa-file-download download-icon"></i><br>PDF Manual
+					</a>
 
 				</div>
 				<div class="col-sm-7 col-md-8">
@@ -133,12 +137,15 @@
 						<img src="/assets/images/manual/manual8.png" alt="Interface description" class="pic-description">
 
                     </div>
+					</div>
+				</div>
+				<div class="appStoreLink-sm d-sm-block d-md-none">
+					<a href="#"><img src="assets/images/appStoreBadge-US-GB.svg" alt="App Store"></a>
 				</div>
 			</div>
-		</div>
 	</section>
 	<footer class="container-xl">
-    <hr>
+		<hr>
 		<div id="footer-details" class="row">
 			<div class="col-sm-6">
 				<h5>Copyright</h5>
@@ -152,19 +159,19 @@
 				<p class="inline-block">
 					Website and App created by Andreas Jost, Amsterdam, Netherlands
 					<br>
-                    <a href="mailto:codefactory@gmx.ch">
-                        <i class="far fa-envelope text-center social-icon"></i>
-                    </a>
-                    
-                    
+					<a href="mailto:codefactory@gmx.ch">
+						<i class="far fa-envelope text-center social-icon"></i>
+					</a>
+
+
 					<a href="https://www.linkedin.com/in/andreas-jost-1218a7107/" target="_blank">
-                        <i class="fab fa-linkedin-in text-center social-icon"></i>
+						<i class="fab fa-linkedin-in text-center social-icon"></i>
 					</a>
 				</p>
 			</div>
 		</div>
 	</footer>
-	
+
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>

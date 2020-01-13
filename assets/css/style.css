@@ -34,7 +34,7 @@ h1 {
     font-family: 'Merriweather', serif;
     font-weight: 300;
     font-size: 33px;
-    padding-bottom: 40px;
+    padding-bottom: 25px;
 }
 
 h2 {
@@ -247,7 +247,7 @@ section {
     list-style-type: none;
     padding-left: 0;
     font-family: 'Blinker', sans-serif;
-    font-size: 13pt;
+    font-size: 12pt;
 }
 
 .pic-container {
@@ -270,6 +270,7 @@ section {
 
 .topics:hover {
     color: #fac481;
+    text-decoration: none;
 
 }
 
@@ -281,16 +282,28 @@ section {
     color: #212121;
 }
 
+.selected-topic:hover {
+    color: white;
+}
+
 .faicons {
     width: 40px;
     display: inline-block;
     text-align: center;
 }
 
-.selected-topic:hover {
-    color: white;
+.download-icon {
+    font-size: 19pt;
 }
 
+.manual-toggler {
+    padding: 0;
+}
+
+.downloadpdf-small {
+    float: right;
+    text-decoration: none;
+}
 
 /*------------------------------------------------------- Form    */
 
@@ -343,21 +356,16 @@ footer hr {
 
 
 @media screen and (max-width : 320px) {
-    h1 {
-    font-size: 24px;
-    padding-bottom: 10px;
-    }
-
     h2 {
-    font-size: 17px;
+        font-size: 17px;
     }
 
     .features-preview {
-    width: 130px;
-    height: 130px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 15px;
+        width: 130px;
+        height: 130px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 15px;
     }
 
     p {
@@ -366,6 +374,11 @@ footer hr {
 }
 
 @media screen and (max-width : 576px) {
+
+    h1 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
     h2 {
         padding-bottom: 0px;
         margin-bottom: 0px;
@@ -383,9 +396,6 @@ footer hr {
 }
 
 @media screen and (max-width : 992px) {
-    h1 {
-        padding-bottom: 25px;
-    }
 
     .features-preview {
         width: 150px;
