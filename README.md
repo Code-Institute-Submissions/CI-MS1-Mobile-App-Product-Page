@@ -25,25 +25,31 @@ The App is meant to make it easier to use a Calendar on the iPhone. Therefore, t
 
 ## Technologies
 
-1. HTML
-2. CSS
-3. Bootstrap (4.4.1)
-4. Google Fonts - Fonts "Merriweather" and "Blinker"
-5. Font Awesome (5.11.2)
-6. Gitpod
-7. Github, and git for version control
-8. Pages and Keynote, Graphic Converter
+- HTML
+- CSS
+- Bootstrap 4.4.1 (getbootstrap.com)
+- Google Fonts (fonts.google.com) Fonts "Merriweather" and "Blinker"
+- Font Awesome 5.11.2 (fontawesome.com)
+- Gitpod (gitpod.io) IDE
+- Github (github.com) for sharing, and git for version control
+- PHP (php.net) to email a form
 
 ## Features
 
 ### Current features
 
-The website has 4 main sections. A navigation menu on top collapses with the help of Bootstrap. Bootstrap is also usied for the image carousel on the home page. A click/tap on the "Send"-Button on the form sends the information to the email address: basicday@c-ronics.com
+- 4 main sections
+- Navigation menu on top (collapsing on narrow screens)
+- Image carousel on the home page (index.html) on narrow screens
+- Contact information in the footer
+- Contact from - sends the information to the email address: basicday@c-ronics.com
 
 ### Planned features
 
 - Active link to the App Store (once the App is online)
-- A news section at the bottom of the homepage (eg. for release notes)
+- A news section at the bottom of the homepage (index.html), eg. for release notes
+
+## Testing
 
 ## Deployment
 
@@ -58,4 +64,4 @@ The rail track pictures on the home page are from pixabay (pixabay.com)
 
 Besides the Code Institute Walkthrough projects, I often consultet stackoverflow.com and w3schools.com for help.
 
-Special thanks to Hassan Sheikh (https://www.youtube.com/watch?v=FTOT73CJ6pM) for the helpful tutorial on how to create a php file for sending a HTML from to an email address.
+Code from tutorial used: (https://www.youtube.com/watch?v=FTOT73CJ6pM by Hassan Sheikh) for creating a php file for sending a HTML from to an email address.
