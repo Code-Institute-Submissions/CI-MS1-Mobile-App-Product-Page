@@ -27,6 +27,11 @@ section {
     padding-top: 70px;
 }
 
+.center-content {
+     display: table;
+  margin: auto;
+}
+
 /*------------------------------------------------------- headings    */
 h1 {
     font-family: 'Merriweather', serif;
