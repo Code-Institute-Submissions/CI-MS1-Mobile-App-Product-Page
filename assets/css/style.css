@@ -1,7 +1,9 @@
 /*------------------------------------------------------- Colors + Fonts   */
 body {
-    background-color: #84b0c2;
-    color: #212121;
+    /*background-color: #84b0c2;*/
+    /*background-color: #1a1a1a;*/
+    background-color: #fff;
+    color: #84b0c2;
 }
 
 p {
@@ -15,14 +17,23 @@ p {
     color: #fac481;
 }
 
+.bg-header {
+    background-color: #1a1a1a;
+}
+
+.bg-gradient {
+    background-image: linear-gradient(to bottom right, #1a1a1a, #1a1a1a, #84b0c2, #1a1a1a, #1a1a1a);
+}
+
 /*------------------------------------------------------- Box special    */
 hr {
-    border: 0.5px solid #212121;
+    border: 0.5px solid #84b0c2;
     margin-top: 2px;
 }
 
 section {
-    padding-top: 70px;
+    padding-top: 75px;
+    padding-bottom: 10px;
 }
 
 .center-content {
@@ -36,9 +47,9 @@ h1 {
     font-weight: 600;
     font-size: 33px;
     letter-spacing: 1px;
+    padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    padding-top: 10px;
 }
 
 h2 {
@@ -67,7 +78,7 @@ h5 {
     padding-left: 0;
     padding-right: 0;
     margin-bottom: 10px;
-    background-color: #84b0c2;
+    background-color: #1a1a1a;
 }
 
 .navbar-toggler {
@@ -75,7 +86,7 @@ h5 {
 }
 
 .navbar {
-    padding: 5px 15px;
+    padding: 5px;
 }
 
 .nav-font .navbar-nav a {
@@ -127,6 +138,9 @@ h5 {
 
 .description {
     padding-top: 20px;
+    color: #fac481;
+    font-size: 17pt;
+    text-shadow: 0 0 4px #1a1a1a
 }
 
 .train-picture-wrapper {
@@ -147,6 +161,10 @@ h5 {
 
 .screenshots-sm {
     width: 24%;
+}
+
+.distance {
+    padding-bottom: 20px;
 }
 
 /*------------------------------------------------------- Features    */
@@ -264,7 +282,7 @@ h5 {
     border-radius: 10px;
     background-color: #fac481;
     padding-left: 0;
-    color: #212121;
+    color: #84b0c2;
 }
 
 .selected-topic:hover {
@@ -295,14 +313,14 @@ h5 {
 .form-item {
     font-family: 'Blinker', sans-serif;
     font-size: 18px;
-    color: #212121;
+    color: #84b0c2;
     margin-top: 10px;
     margin-bottom: 10px;
     
 }
 
 .btn-send {
-    color: #212121;
+    color: #84b0c2;
     background-color: #fac481;
     
     margin-bottom: 25px;
@@ -316,7 +334,7 @@ p.disclaimer {
 
 /*------------------------------------------------------- Footer    */
 #footer-details {
-    color: #212121;
+    color: #84b0c2;
     margin-top: 0px;
 }
 
@@ -327,16 +345,16 @@ footer p {
 footer hr {
     margin-top: 30px;
     margin-bottom: 10px;
-    border: 0.5px solid #212121;
+    border: 0.5px solid #84b0c2;
 }
 
 .social-icon {
     width: 24px;
     height: 24px;
-    background-color:#212121;
+    background-color: #84b0c2;
     border-radius: 4px;
     font-size: 18px;
-    color: #84b0c2;
+    color: #fff;
     margin-right: 10px;
     margin-top: 4px;
     padding-top: 3px;
@@ -369,14 +387,16 @@ footer hr {
         margin-bottom: 0px;
         padding-top: 0px;
     }
-    .header-bg {
-        height: 50px;
-    }
+
 }
 
 @media screen and (max-width : 832px) {
      #logo {
         height: 50px;
+    }
+
+    section {
+        padding-top: 60px;
     }
 }
 
@@ -397,7 +417,7 @@ footer hr {
 
 @keyframes fadeToOrange {
     from {
-        color: #212121;
+        color: #000;
         
         }
     to {
