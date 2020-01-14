@@ -1,13 +1,7 @@
+/*------------------------------------------------------- Colors + Fonts   */
 body {
     background-color: #84b0c2;
     color: #212121;
-}
-
-/*------------------------------------------------------- Colors    */
-
-.orange-highlight {
-    animation: fadeToOrange 1s;
-    color: #fac481;
 }
 
 p {
@@ -16,11 +10,15 @@ p {
     font-weight: 400;
 }
 
-/*------------------------------------------------------- Box special    */
+.orange-highlight {
+    animation: fadeToOrange 1s;
+    color: #fac481;
+}
 
+/*------------------------------------------------------- Box special    */
 hr {
-  border: 0.5px solid #212121;
-  margin-top: 2px;
+    border: 0.5px solid #212121;
+    margin-top: 2px;
 }
 
 section {
@@ -28,8 +26,8 @@ section {
 }
 
 .center-content {
-     display: table;
-  margin: auto;
+    display: table;
+    margin: auto;
 }
 
 /*------------------------------------------------------- headings    */
@@ -61,9 +59,7 @@ h5 {
     letter-spacing: 1px;
 }
 
-
 /*------------------------------------------------------- Navbar    */
-
 .navbar-container {
     z-index: 3;
     top: 0;
@@ -113,17 +109,13 @@ h5 {
 
 .appstore-link {
     display: block;
-   
 }
 
 .navbar-nav {
     padding-top: 4px;
 }
 
-
 /*------------------------------------------------------- Home    */
-
-
 .appStoreLink-sm {
     text-align: center;
     margin: 8px;
@@ -147,48 +139,44 @@ h5 {
     padding-top: 100%;
     content: ''; /* Enable the pseudo-element */
     display: block;
-    background-image: url("/assets/images/background/tracks-home.png");
+    background-image: url("../images/background/tracks-home.png");
     background-size: cover;
     border-radius: 50%;
     box-shadow: 0 0 6px #fff;
 }
 
-
-
 .screenshots-sm {
     width: 24%;
 }
 
-
 /*------------------------------------------------------- Features    */
-
 .features-bg {
     background-size: cover;
     background-position: center;
 }
 
 .features-bg.general {
-    background-image: url("/assets/images/bg-features/general.png");
+    background-image: url("../images/bg-features/general.png");
 }
 
 .features-bg.privacy {
-    background-image: url("/assets/images/bg-features/privacy.png");
+    background-image: url("../images/bg-features/privacy.png");
 }
 
 .features-bg.calendar {
-    background-image: url("/assets/images/bg-features/calendar.png");
+    background-image: url("../images/bg-features/calendar.png");
 }
 
 .features-bg.buttons {
-    background-image: url("/assets/images/bg-features/buttons.png");
+    background-image: url("../images/bg-features/buttons.png");
 }
 
 .features-bg.change {
-    background-image: url("/assets/images/bg-features/change.png");
+    background-image: url("../images/bg-features/change.png");
 }
 
 .features-bg.new {
-    background-image: url("/assets/images/bg-features/new.png");
+    background-image: url("../images/bg-features/new.png");
 }
 
 .features-preview {
@@ -210,37 +198,36 @@ h5 {
 }
 
 .features-preview.general {
-    background-image: url("/assets/images/screenshots-features/general.png");
+    background-image: url("../images/screenshots-features/general.png");
     float: right;
 }
 
 .features-preview.privacy {
-    background-image: url("/assets/images/screenshots-features/privacy.png");
+    background-image: url("../images/screenshots-features/privacy.png");
     float: right;
 }
 
 .features-preview.new {
-    background-image: url("/assets/images/screenshots-features/new.png");
+    background-image: url("../images/screenshots-features/new.png");
     float: left;
 }
 
 .features-preview.calendar {
-    background-image: url("/assets/images/screenshots-features/calendar.png");
+    background-image: url("../images/screenshots-features/calendar.png");
     float: left;
 }
 
 .features-preview.buttons {
-    background-image: url("/assets/images/screenshots-features/buttons.png");
+    background-image: url("../images/screenshots-features/buttons.png");
     float: left;
 }
 
 .features-preview.change {
-    background-image: url("/assets/images/screenshots-features/change.png");
+    background-image: url("../images/screenshots-features/change.png");
     float: right;
 }
 
 /*------------------------------------------------------- Manual    */
-
 .content {
     list-style-type: none;
     padding-left: 0;
@@ -305,7 +292,6 @@ h5 {
 }
 
 /*------------------------------------------------------- Form    */
-
 .form-item {
     font-family: 'Blinker', sans-serif;
     font-size: 18px;
@@ -328,9 +314,7 @@ p.disclaimer {
 }
 
 
-
 /*------------------------------------------------------- Footer    */
-
 #footer-details {
     color: #212121;
     margin-top: 0px;
@@ -359,7 +343,7 @@ footer hr {
     
 }
 
-
+/*------------------------------------------------------- Media Queries and Anmiation    */
 @media screen and (max-width : 320px) {
     h2 {
         font-size: 17px;
@@ -376,7 +360,6 @@ footer hr {
 }
 
 @media screen and (max-width : 576px) {
-
     h1 {
         font-size: 24px;
         padding-bottom: 10px;
@@ -389,7 +372,6 @@ footer hr {
     .header-bg {
         height: 50px;
     }
-
 }
 
 @media screen and (max-width : 832px) {
@@ -399,7 +381,6 @@ footer hr {
 }
 
 @media screen and (max-width : 992px) {
-
     .features-preview {
         width: 150px;
         height: 150px;
@@ -412,8 +393,6 @@ footer hr {
     .form-item {
         font-size: 16px;
     }
-    
-
 }
 
 @keyframes fadeToOrange {

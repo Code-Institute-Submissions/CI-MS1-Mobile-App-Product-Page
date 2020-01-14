@@ -32,7 +32,6 @@ The App is meant to make it easier to use a Calendar on the iPhone. Therefore, t
 - Font Awesome 5.11.2 (fontawesome.com)
 - Gitpod (gitpod.io) IDE
 - Github (github.com) for sharing, and git for version control
-- PHP (php.net) to email a form
 
 ## Features
 

@@ -1,20 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
-	<link
-		href="https://fonts.googleapis.com/css?family=Blinker:300,400,600,700|Merriweather:300,300i,400,400i,700,700i&display=swap"
-		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Blinker:300,400,600,700|Merriweather:300,300i,400,400i,700,700i&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<title>Basic Day - Calendar for iPhone</title>
 </head>
-
 <body>
 	<header>
 		<div class="container-xl fixed-top navbar-container">
@@ -25,14 +20,13 @@
 				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
 						<li class="nav-item mr-2"><a class="nav-link" href="features.html">Features</a></li>
 						<li class="active nav-item mr-2"><a class="nav-link" href="manual.html">Manual</a></li>
 						<li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
-						</ul>
+					</ul>
 				</div>
 				<div class="d-none d-md-block">
 					<a href="#" data-toggle="modal" data-target="#showModal">
@@ -42,68 +36,40 @@
 			</nav>
 		</div>
 	</header>
-
 	<section>
 		<div class="container-xl">
-
 			<h1 class="pages-title">Manual<span class="d-sm-none"> - Create a new event</span></h1>
-
 			<div class="row">
 				<div class="col-sm-5 col-md-4">
-
 					<nav class="nav-font navbar-light navbar-expand-sm">
-
 						<button class="navbar-toggler ml-auto manual-toggler" type="button" data-toggle="collapse" data-target="#topicsDropdown" aria-controls="topicsDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <p class="topics"><i class="fas fa-chevron-down"></i> Choose topic</p>
-
-                    </button>
-
+                            <p class="topics"><i class="fas fa-chevron-down"></i> Choose topic</p>
+                        </button>
 						<a class="topics d-sm-none downloadpdf-small" href="assets/download/Basic_Day_Manual.pdf" target="_blank">
 							<i class="fas fa-file-download"></i> PDF Manual
 						</a>
-
 						<div class="collapse navbar-collapse" id="topicsDropdown">
 							<ul class="content">
-								<li><a class="nav-link topics"
-										href="manual.html"><i class="far fa-calendar faicons"></i>Interface</a></li>
-								<li><a class="nav-link topics"
-										href="manual1.html"><i class="far fa-hand-pointer faicons"></i>Select a date</a>
-								</li>
-								<li><a class="nav-link topics"
-										href="manual2.html"><i class="far fa-window-maximize faicons"></i>Calendar
-										event</a></li>
-								<li><a class="nav-link topics"
-										href="manual3.html"><i class="far fa-window-restore faicons"></i>Change
-										calendar</a></li>
-								<li><a class="nav-link topics"
-										href="manual4.html"><i class="fas fa-edit faicons"></i>Edit a calendar event</a>
-								</li>
-								<li><a class="nav-link topics"
-										href="manual5.html"><i class="fas fa-bell faicons"></i>Set alarm option</a></li>
-								<li><a class="nav-link topics"
-										href="manual6.html"><i class="far fa-copy faicons"></i>Set repeat option</a>
-								</li>
-								<li><a class="nav-link topics"
-										href="manual7.html"><i class="fas fa-trash-alt faicons"></i>Delete event</a>
-								</li>
-								<li><a class="nav-link selected-topic"
-										href="manual8.html"><i class="fas fa-plus faicons"></i>Create a new event</a>
-								</li>
-								<li><a class="nav-link topics"
-										href="manual9.html"><i class="fas fa-cogs faicons"></i>Preferences</a></li>
+								<li><a class="nav-link topics" href="manual.html"><i class="far fa-calendar faicons"></i>Interface</a></li>
+								<li><a class="nav-link topics"href="manual1.html"><i class="far fa-hand-pointer faicons"></i>Select a date</a></li>
+								<li><a class="nav-link topics"href="manual2.html"><i class="far fa-window-maximize faicons"></i>Calendar event</a></li>
+								<li><a class="nav-link topics"href="manual3.html"><i class="far fa-window-restore faicons"></i>Change calendar</a></li>
+								<li><a class="nav-link topics"href="manual4.html"><i class="fas fa-edit faicons"></i>Edit a calendar event</a></li>
+								<li><a class="nav-link topics"href="manual5.html"><i class="fas fa-bell faicons"></i>Set alarm option</a></li>
+								<li><a class="nav-link topics"href="manual6.html"><i class="far fa-copy faicons"></i>Set repeat option</a></li>
+								<li><a class="nav-link topics"href="manual7.html"><i class="fas fa-trash-alt faicons"></i>Delete event</a></li>
+								<li><a class="nav-link selected-topic"href="manual8.html"><i class="fas fa-plus faicons"></i>Create a new event</a></li>
+								<li><a class="nav-link topics"href="manual9.html"><i class="fas fa-cogs faicons"></i>Preferences</a></li>
 							</ul>
 						</div>
 					</nav>
-
 					<a class="topics d-none d-sm-block text-center" href="assets/download/Basic_Day_Manual.pdf" target="_blank">
 						<i class="fas fa-file-download download-icon"></i><br>PDF Manual
 					</a>
 				</div>
 				<div class="col-sm-7 col-md-8">
 					<div class="pic-container">
-
-						<img src="/assets/images/manual/manual8.png" alt="Interface description" class="pic-description">
-
+						<img src="assets/images/manual/manual8.png" alt="Interface description" class="pic-description">
                     </div>
 				</div>
 			</div>
@@ -114,47 +80,38 @@
 			</div>
 		</div>
 	</section>
-
-    <div class="modal fade" id="showModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-		aria-hidden="true">
+    <div class="modal fade" id="showModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
 					<h2 class="modal-title" id="exampleModalLabel">Thank you for your interest</h2>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+                        <span aria-hidden="true">&times;</span>
+                    </button>
 				</div>
 				<div class="modal-body">
-					<p>
-						"Basic Day" is currently still in development. Please go to the Contact section to get
-						informed once the app is available on the App Store.
-					</p>
+					<p>"Basic Day" is currently still in development. Please go to the Contact section to get informed once the app is available on the App Store.</p>
 				</div>
 			</div>
 		</div>
 	</div>
-
 	<footer class="container-xl">
 		<hr>
 		<div id="footer-details" class="row">
 			<div class="col-sm-6">
 				<h5>Copyright</h5>
 				<p class="inline-block">
-					Content of this page: &#169 2020 Andreas Jost <br>
+					Content of this page: &#169 2020 Andreas Jost<br>
                     "iPhone" and "App Store" are trademarks of Apple Inc., registered in the U.S. and other countries.
 				</p>
 			</div>
 			<div class="col-sm-6">
 				<h5>Impressum</h5>
 				<p class="inline-block">
-					Website and App created by Andreas Jost, Amsterdam, Netherlands
-					<br>
+					Website and App created by Andreas Jost, Amsterdam, Netherlands<br>
 					<a href="mailto:codefactory@gmx.ch">
 						<i class="far fa-envelope text-center social-icon"></i>
 					</a>
-
-
 					<a href="https://www.linkedin.com/in/andreas-jost-1218a7107/" target="_blank">
 						<i class="fab fa-linkedin-in text-center social-icon"></i>
 					</a>
@@ -162,15 +119,8 @@
 			</div>
 		</div>
 	</footer>
-
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
-
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
+</html>
