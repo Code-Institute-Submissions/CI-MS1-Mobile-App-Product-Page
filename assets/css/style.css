@@ -1,7 +1,5 @@
 /*------------------------------------------------------- Colors + Fonts   */
 body {
-    /*background-color: #84b0c2;*/
-    /*background-color: #1a1a1a;*/
     background-color: #fff;
     color: #84b0c2;
 }
@@ -59,12 +57,11 @@ h1 {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    color: #fff;
 }
 
 h2 {
     font-family: 'Merriweather', serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 22px;
     letter-spacing: 1px;
     padding-bottom: 10px;
