@@ -362,6 +362,10 @@ p.disclaimer {
     color: #1a1a1a;
 }
 
+.modal-body a {
+    text-decoration: none;
+}
+
 
 /*------------------------------------------------------- Footer    */
 #footer-details {
