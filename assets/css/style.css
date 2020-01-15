@@ -20,7 +20,7 @@ p {
 }
 
 .bg-gradient-blue {
-    background-image: linear-gradient(to bottom right, #1a1a1a, #1a1a1a, #84b0c2, #1a1a1a, #1a1a1a);
+    background-image: linear-gradient(to bottom right, #000, #1a1a1a, #2a2a2a, #84b0c2, #2a2a2a, #1a1a1a, #000);
 }
 
 .bg-gradient-gray {
