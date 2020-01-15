@@ -21,8 +21,12 @@ p {
     background-color: #1a1a1a;
 }
 
-.bg-gradient {
+.bg-gradient-home {
     background-image: linear-gradient(to bottom right, #1a1a1a, #1a1a1a, #84b0c2, #1a1a1a, #1a1a1a);
+}
+
+.bg-gradient-features {
+    background-image: linear-gradient(to bottom right, #1a1a1a, #2f2f2f, #1a1a1a, #000);
 }
 
 /*------------------------------------------------------- Box special    */
@@ -71,6 +75,12 @@ h5 {
 }
 
 /*------------------------------------------------------- Navbar    */
+
+.sideborder {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .navbar-container {
     z-index: 3;
     top: 0;
@@ -101,7 +111,7 @@ h5 {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
@@ -164,7 +174,7 @@ h5 {
 }
 
 .distance {
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 /*------------------------------------------------------- Features    */
@@ -207,7 +217,7 @@ h5 {
     background-size: cover;
     background-color: darkgrey;
     transition: transform 0.2s;
-    box-shadow: 0 0 6px #fff;
+    box-shadow: 0 0 20px #0a0a0a;
 }
 
 .features-preview:hover {
