@@ -135,7 +135,10 @@ h5 {
 
 .navbar-dark .navbar-collapse {
     text-align: right;
-    /* put somewhere else */
+}
+
+.navbar-nav {
+    padding-top: 4px;
 }
 
 #logo {
@@ -145,10 +148,6 @@ h5 {
 .appstore-link {
     display: block;
     padding-right: 5px;
-}
-
-.navbar-nav {
-    padding-top: 4px;
 }
 
 /*------------------------------------------------------- Home    */
@@ -365,7 +364,6 @@ p.disclaimer {
 .modal-body a {
     text-decoration: none;
 }
-
 
 /*------------------------------------------------------- Footer    */
 #footer-details {
