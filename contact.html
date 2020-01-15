@@ -12,28 +12,30 @@
 </head>
 <body>
 	<header>
-		<div class="container-xl fixed-top navbar-container">
-			<nav class="navbar navbar-dark navbar-expand-sm nav-font">
-				<a href="index.html">
-					<img src="assets/images/logo.png" alt="Logo" id="logo">
-                </a>
-				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-						<li class="nav-item mr-2"><a class="nav-link" href="features.html">Features</a></li>
-						<li class="nav-item mr-2"><a class="nav-link" href="manual.html">Manual</a></li>
-						<li class="active nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a>
-					</ul>
-				</div>
-				<div class="d-none d-md-block">
-					<a href="" data-toggle="modal" data-target="#showModal">
-						<img src="assets/images/appStoreBadge-US-GB.svg" alt="App Store" class="appstore-link">
-                       </a>
-				</div>
-			</nav>
+		<div class="bg-header fixed-top navbar-container">
+		    <div class="container-xl sideborder">
+			    <nav class="navbar navbar-dark navbar-expand-sm nav-font">
+				    <a href="index.html">
+				    	<img src="assets/images/logo.png" alt="Logo" id="logo">
+                    </a>
+				    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+				    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+					    <ul class="navbar-nav ml-auto">
+						    <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+						    <li class="nav-item mr-2"><a class="nav-link" href="features.html">Features</a></li>
+						    <li class="nav-item mr-2"><a class="nav-link" href="manual.html">Manual</a></li>
+						    <li class="active nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a>
+					    </ul>
+				    </div>
+				    <div class="d-none d-md-block">
+					    <a href="" data-toggle="modal" data-target="#showModal">
+						    <img src="assets/images/appStoreBadge-US-GB.svg" alt="App Store" class="appstore-link">
+                        </a>
+				    </div>
+			    </nav>
+            <div>
 		</div>
 		<div class="modal fade" id="showModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog" role="document">
@@ -52,28 +54,31 @@
 		</div>
 	</header>
 	<section>
-		<div class="container-xl">
-			<h1 class="pages-title">Contact</h1>
-			<div class="center-form">
-				<form action="contactform.php" method="post">
-					<input type="radio" name="feedbackType" value="general" checked><span class="form-item"> General feedback<span><br>
-					<input type="radio" name="feedbackType" value="inform"><span class="form-item"> I want to get notified once 'Basic Day is available<span>
-					<input type="text" name="name" id="fullname" class="form-control form-item" placeholder="Name" required />
-					<input type="email" name="email" id="emailaddress" class="form-control form-item" placeholder="Email" required />
-					<textarea rows="5" name="messagetext" id="messagetext" class="form-control form-item" placeholder="Message"></textarea>
-					<div class="form-row text-center">
-						<div class="col">
-							<button type="submit" class="btn btn-send">Send</button>
-						</div>
-					</div>
-				</form>
-			</div>
-            <h5>Disclaimer</h5>
-            <p class="disclaimer">The email address and other information is being used for direct communication only. No information is being sold to 3rd prarties. When selecting the option "I want to get notified once 'Basic Day' is available", that is the only information which will be sent - email addresses are not used for any other bulk mails or marketing purpouses.</p>
-		</div>
+        <div class="bg-gradient-gray">
+		    <div class="container-xl">
+			    <h1 class="pages-title">Contact</h1>
+			    <div class="center-form">
+				    <form action="contactform.php" method="post">
+					    <input type="radio" name="feedbackType" value="general" checked><span class="form-item"> General feedback<span><br>
+					    <input type="radio" name="feedbackType" value="inform"><span class="form-item"> I want to get notified once 'Basic Day' is available<span>
+					    <input type="text" name="name" id="fullname" class="form-control form-item" placeholder="Name" required />
+					    <input type="email" name="email" id="emailaddress" class="form-control form-item" placeholder="Email" required />
+					    <textarea rows="5" name="messagetext" id="messagetext" class="form-control form-item" placeholder="Message"></textarea>
+					    <div class="form-row text-center">
+						    <div class="col">
+							    <button type="submit" class="btn btn-send">Send</button>
+						    </div>
+					    </div>
+				    </form>
+			    </div>
+                <div class="distance">
+                    <h5>Disclaimer</h5>
+                    <p class="disclaimer">The email address and other information is being used for direct communication only. No information is being sold to 3rd prarties. When selecting the option "I want to get notified once 'Basic Day' is available", that is the only information which will be sent - email addresses are not used for any other bulk mails or marketing purpouses.</p>
+                </div>
+            </div>
+        </div>
 	</section>
    	<footer class="container-xl">
-    <hr>
 		<div id="footer-details" class="row">
 			<div class="col-sm-6">
 				<h5>Copyright</h5>
