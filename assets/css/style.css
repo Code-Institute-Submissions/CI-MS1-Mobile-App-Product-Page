@@ -268,7 +268,7 @@ h5 {
 }
 
 .pic-container {
-    background-color: white;
+    background-color: #fff;
     max-height: 768px;
     border-radius: 20px;
     padding-right: 15px;
@@ -343,6 +343,23 @@ h5 {
 
 p.disclaimer {
     font-size: 11pt;
+}
+
+/*------------------------------------------------------- Modal view */
+
+.modal-content {
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: #fff;
+}
+
+.modal-body h2 {
+    animation: none;
+}
+
+.modal-body h2,
+.modal-body p {
+    color: #1a1a1a;
 }
 
 
