@@ -20,22 +20,15 @@ p {
 }
 
 .bg-gradient-blue {
-    /*background-image: linear-gradient(to bottom right, #101010, #2f2f2f, #333333, #84b0c2, #2a2a2a, #1a1a1a, #000);*/
 
     background-image: radial-gradient(#fff, #84b0c2, #212121);
 }
 
 .bg-gradient-gray {
-    /*background-image: linear-gradient(to bottom right, #202020, #2f2f2f, #1a1a1a, #000);*/
     background-image: radial-gradient(#84b0c2, #212121);
 }
 
 /*------------------------------------------------------- Box special    */
-hr {
-    border: 0.5px solid #84b0c2;
-    margin-top: 2px;
-}
-
 section {
     padding-top: 75px;
     padding-bottom: 10px;
@@ -61,10 +54,9 @@ section {
 h1 {
     font-family: 'Merriweather', serif;
     font-weight: 300;
-    font-size: 33px;
+    font-size: 40px;
     letter-spacing: 1px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 30px 0 40px 0;
     text-align: center;
 }
 
@@ -175,7 +167,7 @@ h5 {
 
 .train-picture:before {
     padding-top: 100%;
-    content: ''; /* Enable the pseudo-element */
+    content: '';  /* Enable pseudo-element */
     display: block;
     background-image: url("../images/background/tracks-home.png");
     background-size: cover;
@@ -188,20 +180,19 @@ h5 {
 }
 
 /*------------------------------------------------------- Features    */
-.half-height {
+.wrapper {
     min-height: 185px;
     max-width: 832px;
     margin-right: 150px;
     margin-left: 150px;
 }
 
-
-.half-height.right {
+.wrapper.right {
     margin-right: 150px;
     margin-left: 400px;
 }
 
-.half-height.left {
+.wrapper.left {
     margin-right: 400px;
     margin-left: 150px;
 }
@@ -209,17 +200,12 @@ h5 {
 .features-preview {
     width: 300px;
     height: 300px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 70px;
+    margin: 0 10px 70px 10px;
     border-radius: 50%;
     shape-outside: circle(50%);
     background-size: cover;
     background-color: darkgrey;
     transition: transform 0.2s;
-    /*
-    box-shadow: 0 0 5px #fff;
-    */
     box-shadow: 0 0 5px #84b0c2;
 }
 
@@ -273,6 +259,10 @@ h5 {
 
 .fade-right {
     background-image: linear-gradient(to bottom left, rgba(132,176,194,0.3), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0));
+}
+
+.bottom-distance {
+    padding-bottom: 150px;
 }
 
 /*------------------------------------------------------- Manual    */
@@ -340,7 +330,6 @@ h5 {
     color: #fafafa;
     margin-top: 10px;
     margin-bottom: 10px;
-    
 }
 
 .btn-send {
@@ -356,7 +345,6 @@ p.disclaimer {
 }
 
 /*------------------------------------------------------- Modal view */
-
 .modal-content {
     border-radius: 10px;
     border-width: 2px;
@@ -386,12 +374,6 @@ footer p {
     font-size: 14px;
 }
 
-footer hr {
-    margin-top: 30px;
-    margin-bottom: 10px;
-    border: 0.5px solid #84b0c2;
-}
-
 .social-icon {
     width: 24px;
     height: 24px;
@@ -401,12 +383,10 @@ footer hr {
     color: #fff;
     margin-right: 10px;
     margin-top: 4px;
-    padding-top: 3px;
-    
+    padding-top: 3px; 
 }
 
 /*------------------------------------------------------- Media Queries and Anmiation    */
-
 @media screen and (max-width : 992px) {
     .features-preview {
         width: 30vw;
@@ -414,16 +394,17 @@ footer hr {
         margin-bottom: 0px;
     }
 
-    .half-height {
+    .wrapper {
         min-height: 160px;
+        padding-bottom: 30px;
     }
     
-    .half-height.right {
+    .wrapper.right {
         margin-right: 15vw;
         margin-left:  25vw;
     }
 
-    .half-height.left {
+    .wrapper.left {
         margin-right:  25vw;
         margin-left: 15vw;
     }
@@ -434,6 +415,10 @@ footer hr {
 
     .form-item {
         font-size: 18px;
+    }
+
+    .bottom-distance {
+        padding-bottom: 130px;
     }
 }
 
@@ -446,17 +431,17 @@ footer hr {
         padding-top: 60px;
     }
 
-    .half-height {
-        padding-bottom: 50px;
+    .wrapper {
+        padding-bottom: 30px;
     }
 
-     .half-height.right {
+     .wrapper.right {
         margin-right: 15vw;
-        margin-left: 0px;
+        margin-left: 10vw;
     }
 
-    .half-height.left {
-        margin-right: 0px;
+    .wrapper.left {
+        margin-right: 10vw;
         margin-left: 15vw;
     }
 
@@ -464,10 +449,14 @@ footer hr {
         font-size: 22px;
     }
 
+    .bottom-distance {
+        padding-bottom: 100px;
+    }
+
+
 @media screen and (max-width : 576px) {
     h1 {
-        font-size: 24px;
-        padding-bottom: 10px;
+        font-size: 30px;
     }
 
     h2 {
@@ -479,16 +468,24 @@ footer hr {
         height: 150px;
     }
 
-    .faicons {
+    .wrapper.right {
+        margin-right: 15vw;
+        margin-left: 0px;
+    }
+
+    .wrapper.left {
+        margin-right: 0px;
+        margin-left: 15vw;
+    }
+
+    .wrapper .faicons {
         display: none;
     }
 
-}
+    .bottom-distance {
+        padding-bottom: 40px;
+    }
 
-@media screen and (max-width : 320px) {
-
-   
-    
 }
 
 @keyframes fadeToOrange {
