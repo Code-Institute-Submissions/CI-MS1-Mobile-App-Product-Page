@@ -55,7 +55,7 @@ the colors orange, white and dark grey follow the color theme of the App program
 - Contact information in the footer
 - Contact from - sends the information to an email address
 - Modal pop-up when clicking/tapping on the App Store link
-- Responsive desgn: Besides minor changes (eg. font size), there are some major layout changes according to the viewport size:
+- Responsive desgn: Besides minor changes (eg. font size), there are some major layout changes depending on the viewport size:
     ![table](http://c-ronics.com/course/responsiveDesignTable.png)
 
 ### Planned features
@@ -66,6 +66,24 @@ the colors orange, white and dark grey follow the color theme of the App program
 
 ***
 ## Testing
+
+### Code
+
+I used the W3C Validation services for both HTML and CSS to get the code tested.
+
+I've used the following Operating Systems and Browsers to check if the Website displays correctly:
+
+- Windwows 10
+    - Chrome
+    - Firefox
+
+- MacOS
+    - Chrome
+    - Firefox
+    - Safari
+
+- iOS
+    - Safari
 
 ***
 ## Deployment
@@ -79,6 +97,6 @@ The rail track pictures on the home page are from pixabay (pixabay.com)
 
 ### Code
 
-Besides the Code Institute Walkthrough projects, I often consultet stackoverflow.com and w3schools.com for help.
+Besides the Code Institute Walkthrough projects, I often consulted stackoverflow.com and w3schools.com for tips.
 
-Code from tutorial used: (https://www.youtube.com/watch?v=FTOT73CJ6pM by Hassan Sheikh) for creating a php file for sending a HTML from to an email address.
+Code from tutorial used: (https://www.youtube.com/watch?v=FTOT73CJ6pM by Hassan Sheikh) for creating a php file for sending a HTML form to an email address.
