@@ -100,6 +100,24 @@ I've used the following Operating Systems and Browsers to check if the Website d
 ***
 ## Deployment
 
+In a first step, I deployed the page on GitHub Pages:
+1. Opening the repository on GitHub
+2. Going to the settings
+3. Under the section "GitHub Pages", selecting the master branch as the source.
+    https://andreasjost.github.io/CI-MS1-Mobile-App-Product-Page/index.html
+
+The 'send'-button in the form doesn't work on GitHub Pages. Therefore, I deployed the project on another host (https://www.hetzner.de) with the following steps:
+1. Download the project from GitHub:    
+    1.1 Opening the repository on GitHub    
+    1.2 Clicking the button "Clone or download" > download ZIP  
+    1.3 Unpacked the ZIP-File
+
+2. Uploaded the project to the host     
+    2.1 Opening the host's server in Cyberduck (cyberduck.io)   
+    2.2 Creating a new folder on the root directory (basicday) and draged all the files from the downloaded ZIP-File
+
+
+
 ***
 ## Challenges
 
@@ -129,5 +147,7 @@ The rail track pictures on the home page are from pixabay (pixabay.com)
 ### Code
 
 Besides the Code Institute Walkthrough projects, I often consulted stackoverflow.com and w3schools.com for tips.
+
+A special thanks also to my Code Institute Mentor Adegbenga Adeye for all the useful input.
 
 Code from tutorial used: (https://www.youtube.com/watch?v=FTOT73CJ6pM by Hassan Sheikh) for creating a php file for sending a HTML form to an email address.
