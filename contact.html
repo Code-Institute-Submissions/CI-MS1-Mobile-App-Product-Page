@@ -44,8 +44,8 @@
 			    <h1 class="pages-title">Contact</h1>
 			    <div class="center-form">
 				    <form action="contactform.php" method="post">
-					    <input type="radio" name="feedbackType" value="general" checked><span class="form-item"> General feedback</span><br>
-					    <input type="radio" name="feedbackType" value="inform"><span class="form-item"> I want to get notified once 'Basic Day' is available</span>
+					    <input type="radio" name="feedbackType" value="general" id="radio1" checked><label for="radio1" class="form-item">General feedback</label><br>
+					    <input type="radio" name="feedbackType" value="inform" id="radio2"><label for="radio2" class="form-item">I want to get notified once 'Basic Day' is available</label>
 					    <input type="text" name="name" id="fullname" class="form-control form-item inside-field" placeholder="Name" required />
 					    <input type="email" name="email" id="emailaddress" class="form-control form-item inside-field" placeholder="Email" required />
 					    <textarea rows="5" name="messagetext" id="messagetext" class="form-control form-item inside-field" placeholder="Message"></textarea>
@@ -88,7 +88,7 @@
 			<div class="col-sm-6">
 				<h5>Impressum</h5>
 				<p class="inline-block">
-					Website and App created by Andreas Jost, Amsterdam, Netherlands<br>
+					Website and App created by Andreas Jost, Amsterdam, the Netherlands<br>
                     <a href="mailto:codefactory@gmx.ch">
                         <i class="far fa-envelope text-center social-icon"></i>
                     </a>
