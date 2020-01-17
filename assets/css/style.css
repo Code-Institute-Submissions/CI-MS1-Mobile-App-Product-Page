@@ -363,6 +363,7 @@ input[type=radio] {
     margin: 0 5px 0 5px;
     float: left;
     margin-top: 8px;
+    background-color: #fac481;
 }
 
 label {
