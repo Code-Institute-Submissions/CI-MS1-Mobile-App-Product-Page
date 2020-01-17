@@ -79,9 +79,7 @@ The purpouse of the app is to make it easier to use a calendar on the iPhone. Th
 ***
 ## Testing
 
-### Code
-
-I used the W3C Validation services for both HTML and CSS to get the code tested.
+### Site
 
 I've used the following Operating Systems and Browsers to check if the Website displays correctly:
 
@@ -96,6 +94,12 @@ I've used the following Operating Systems and Browsers to check if the Website d
 
 - iOS
     - Safari
+
+### Code
+
+I used the W3C Validation services for both HTML and CSS to get the code tested. The following errors appear:
+- CSS: The "Shape outside" property does not exist. *I kept it in the code, it works in all tested browsers except Microsoft Edge. Therefore, it affects only a very small percentage of users, and it's not a major design element*
+- HTML: illegal character in query: | *I ignored the message because it works, and because this is the convention given by Google Fonts*
 
 ***
 ## Deployment
