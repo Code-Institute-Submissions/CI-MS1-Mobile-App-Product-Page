@@ -101,7 +101,7 @@ I've used the following Operating Systems and Browsers to check if the Website d
 
 All browsers display the pages correctly, with one exception: Microsoft Edge displays the page features.html slightly differently. Read the next section (Code) for details.
 
-Further on, I asked a friend to check the webside online, click on all the links, and get back to me if he sees any issues. In addition, I added the project to the pair-programming Slack group of Code-Institute.
+Further on, I asked a friend to check the webside online, click on all the links, and get back to me if he sees any issues. In addition, I added the project to the pair-programming Slack group of Code Institute.
 
 ### Code
 
@@ -124,11 +124,11 @@ B) I deployed the project on another host (https://www.hetzner.de), taking the f
 1. Downloaded the project from GitHub:    
     1.1 Opening the repository on GitHub    
     1.2 Clicking the button "Clone or download" > download ZIP  
-    1.3 Unpacked the ZIP-File
+    1.3 Unpacking the ZIP-File
 
 2. Uploaded the project to the host     
     2.1 Opening the host's server in Cyberduck (cyberduck.io)   
-    2.2 Creating a new folder on the root directory (basicday) and draged all the files from the downloaded ZIP-file
+    2.2 Creating a new folder on the root directory (basicday) and dragged all the files from the downloaded ZIP-file
 
 ***
 ## Challenges
