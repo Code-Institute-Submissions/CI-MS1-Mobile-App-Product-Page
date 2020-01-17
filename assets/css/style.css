@@ -336,6 +336,11 @@ h5 {
     margin-bottom: 10px;
 }
 
+.form-item.inside-field {
+    color: #1a1a1a;
+}
+
+
 .btn-send {
     color: #1a1a1a;
     background-color: #fac481;
