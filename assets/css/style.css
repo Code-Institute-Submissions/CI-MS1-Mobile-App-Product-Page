@@ -370,10 +370,6 @@ label {
     width: 80%;
 }
 
-.form-item:hover {
-    color: #fac481;
-}
-
 /*------------------------------------------------------- Modal view */
 .modal-content {
     border-radius: 10px;
