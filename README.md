@@ -4,7 +4,7 @@ First Code Institute Milestone Project: User-Centric Frontend Development
 This Website is dedicated to an iOS Calendar App which I'm currently developing. The page promotes the App and its features, provides a user manual and contact information.
 
 The live website can be found here:
-(c-ronics.com/basicday/index.html)
+(http://www.c-ronics.com/basicday/index.html)
 ***
 ## UX
 ### User Stories:
