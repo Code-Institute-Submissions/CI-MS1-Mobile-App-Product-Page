@@ -1,6 +1,7 @@
 # Mobile App Product Page
 
-First Code Institute Milestone Project: User-Centric Frontend Development
+Code Institute Milestone Project: 1 - User-Centric Frontend Development
+
 This Website is dedicated to an iOS Calendar App which I'm currently developing. The page promotes the App and its features, provides a user manual and contact information.
 
 The live website can be found here:
@@ -18,26 +19,26 @@ Effectively communicate the goal of a specific Calendar App to potential custome
 Explain why this App is easier and faster to use than other calendar Apps, present the key features, provide an online and downloadable user manual, Provide a contact form for feedback and updates, and show an App Store download link. 
 
 ### Structure
-Use of a common tree structure type: Navigation bar and 4 sections which are all accessible from anywhere on the page, answering the following questions:
-- Home (Why?)
-- Key Features (What?)
-- Manual  (How?)
-- Contact form and personal information (Who?)
-- App Store download link (Where?)
+Use of a common tree structure: Navigation bar and 4 pages which are all accessible from anywhere on the website, answering the following questions:
+- Home (*Why?*)
+- Key Features (*What?*)
+- Manual  (*How?*)
+- Contact form and personal information (*Who?*)
+- App Store download link (*Where?*)
 
 ### Skeleton
 [Wireframes](/Wireframes.pdf)
 
 ### Surface
-The purpouse of the App is to make it easier to use a calendar on the iPhone. Therefore, the design is also very simple and clear, with minimum color and animation, directing the viewer's focus on product images and the text. The color theme follows the following pattern:
-- Overall theme: dark
-- Normal text and titles: white
-- Links: white, orange on hover
-- Highlighted: orange
-- Footer: white background, blue font color (same as the section background). The footer is only very subtile, because the focus of the site should be on the app and it's features, and not on the information about the website.
+The purpouse of the App is to make it easier to use a calendar on the iPhone. Therefore, the design is also very simple and clear, with minimum color and animation, directing the viewer's focus on product images and text. The color theme follows the following pattern:
+- Overall theme: Dark
+- Normal text and titles: White
+- Links: White, orange on hover
+- Highlighted: Orange
+- Footer: White background, blue font color (same as the section background). The footer is only very subtile, because the focus of the site should be on the app and it's features, and not on the information about the website.
 - at least one element in every section to fade from darkgray to orange when opening the site
 - The colors orange, white and dark grey follow the color theme of the App-icon/logo
-- Fonts: Blinker and Merriweather. I choose a serif font (Merriweather) for the titles simply because most other pages currently don't, making it stand out more.
+- Fonts: Blinker and Merriweather
 
 ***
 ## Technologies
@@ -62,7 +63,7 @@ The purpouse of the App is to make it easier to use a calendar on the iPhone. Th
 
 - Contact information in the footer
 
-- Contact from - sends the information to an email address
+- Contact form - sends the information to an email address
 
 - Modal pop-up when clicking/tapping on the App Store link
 
@@ -99,6 +100,14 @@ I've used the following Operating Systems and Browsers to check if the Website d
 - iOS
     - Safari
 
+I also tested the links:
+- The "PDF Manual" link opens in a new tab
+- A click on "Download on the App store" opens a modal view with a link to the contact page. Except if the button is klicked on the contact page.
+- Navigation works, both on a desktop and on mobile
+- A click on the logo opens index.html
+- A klick on the mail icon in the Footer opens the email client
+- A click on the LinkedIn button in the Footer opens my LinkedIn page in a new tab
+
 All browsers display the pages correctly, with one exception: Microsoft Edge displays the page features.html slightly differently. Read the next section (Code) for details.
 
 Further on, I asked a friend to check the webside online, click on all the links, and get back to me if there are any issues. In addition, I added the project to the pair-programming Slack group of Code Institute.
@@ -111,6 +120,8 @@ I used the W3C Validation services for both HTML and CSS to get the code tested.
 
 ***
 ## Deployment
+
+### Steps taken to deploy the projects
 
 A) In a first step, I deployed the project on GitHub Pages:
 1. Open the repository on GitHub
@@ -130,6 +141,13 @@ B) I deployed the project on another host (https://www.hetzner.de), taking the f
     2.1 Open the host's server in Cyberduck (cyberduck.io)   
     2.2 Create a new folder on the root directory (basicday) and dragged all the files from the downloaded ZIP-file
 
+### Create a local repository
+
+This is the GitHub link to the repository: https://github.com/andreasjost/CI-MS1-Mobile-App-Product-Page
+
+Follow this steps to make a local clone of the repository:
+https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+
 ***
 ## Challenges
 
@@ -139,14 +157,14 @@ During the development process, I faced the following challenges which I will ta
 
 - More considerate use of margin and padding: for a lot of elements, margins and padding produces the same visual result. Therefore, the code should be more consistent when using those attributes.
 
-- Keep going back to the purpouse of the site to make design decisions would save time. For example: The Website presents a mobile app. Therefore, a lot of users view the site on a mobile browser - the site doesn't need to squeeze information on the desktop view, like in the following example of features.html:
+- Keep going back to the purpouse of the site to make design decisions would save time. For example: The Website presents a mobile App. Therefore, a lot of users view the site on a mobile browser - the site doesn't need to squeeze information on the desktop view, as shown in the following example of "features.html":
     ![before vs. after](http://c-ronics.com/course/before-after.png)
 
 - Another challenge was to design the website *and* write code for the actual App in SWIFT, mostly because the design goals are completely different:
     - App: As much information as possible on one screen, so scrolling is not necessary. Make buttons just big enough for finger taps.
-    - Website: Make the desing appealing, without overloading the user with information. Leave enough space to breathe and the use of bigger fonts
+    - Website: Make the desing appealing, without overloading the user with information. Leaving enough space to breathe and using bigger fonts
 
-    Also, I had some timing issues: I needed screenshots for the web site, but needed more time to write enough code to produce usable screenshots 
+    Also, I had some timing issues: I needed screenshots for the web site, but needed more time to write enough code to produce usable screenshots. Therefore, it would be better to start with the web page once the development of the presented product is at a later stage
 
 
 ***
