@@ -4,7 +4,7 @@ First Code Institute Milestone Project: User-Centric Frontend Development
 This Website is dedicated to an iOS Calendar App which I'm currently developing. The page promotes the App and its features, provides a user manual and contact information.
 
 The live website can be found here:
-c-ronics.com/basicday/index.html
+(c-ronics.com/basicday/index.html)
 ***
 ## UX
 ### User Stories:
@@ -33,7 +33,7 @@ The purpouse of the App is to make it easier to use a calendar on the iPhone. Th
 - Overall theme: dark
 - Normal text and titles: white
 - Links: white, orange on hover
-- Emphazised: orange
+- Highlighted: orange
 - Footer: white background, blue font color (same as the section background). The footer is only very subtile, because the focus of the site should be on the app and it's features, and not on the information about the website.
 - at least one element in every section to fade from darkgray to orange when opening the site
 - The colors orange, white and dark grey follow the color theme of the App-icon/logo
@@ -56,9 +56,9 @@ The purpouse of the App is to make it easier to use a calendar on the iPhone. Th
 
 ### Current features
 
-- 4 main sections
+- 4 main pages
 
-- Navigation menu on top
+- Navigation menu on top to switch between the 4 pages
 
 - Contact information in the footer
 
@@ -66,7 +66,7 @@ The purpouse of the App is to make it easier to use a calendar on the iPhone. Th
 
 - Modal pop-up when clicking/tapping on the App Store link
 
-- Responsive desgn: Besides minor changes (eg. font size), there are some major layout changes depending on the viewport size:
+- Responsive design: Besides minor changes (eg. font size), there are some major layout changes depending on the viewport size:
     ![table](http://c-ronics.com/course/responsiveDesignTable.png)
 
 
@@ -101,34 +101,34 @@ I've used the following Operating Systems and Browsers to check if the Website d
 
 All browsers display the pages correctly, with one exception: Microsoft Edge displays the page features.html slightly differently. Read the next section (Code) for details.
 
-Further on, I asked a friend to check the webside online, click on all the links, and get back to me if he sees any issues. In addition, I added the project to the pair-programming Slack group of Code Institute.
+Further on, I asked a friend to check the webside online, click on all the links, and get back to me if there are any issues. In addition, I added the project to the pair-programming Slack group of Code Institute.
 
 ### Code
 
 I used the W3C Validation services for both HTML and CSS to get the code tested. The following errors appear:
 - CSS: The "shape outside" property does not exist. *I kept it in the code, it works in all tested browsers except Edge. Therefore, it affects only a very small percentage of users, and it's not a major design element*
-- HTML: illegal character in query: |. *I ignored the message because it works, and because this is the convention given by Google Fonts*
+- HTML: Illegal character in query: |. *I ignored the message because it works, and because this is the convention given by Google Fonts*
 
 ***
 ## Deployment
 
-A) In a first step, I deployed the priject on GitHub Pages:
-1. Opening the repository on GitHub
-2. Going to the settings
-3. Under the section "GitHub Pages", selecting the master branch as the source.
+A) In a first step, I deployed the project on GitHub Pages:
+1. Open the repository on GitHub
+2. Go to "Settings"
+3. Under the section "GitHub Pages", select the master branch as the source.
     https://andreasjost.github.io/CI-MS1-Mobile-App-Product-Page/index.html
 
 The 'Send'-button in the form doesn't work on GitHub Pages, therefore I made a second step:
 
 B) I deployed the project on another host (https://www.hetzner.de), taking the following steps:
-1. Downloaded the project from GitHub:    
-    1.1 Opening the repository on GitHub    
-    1.2 Clicking the button "Clone or download" > download ZIP  
-    1.3 Unpacking the ZIP-File
+1. Download the project from GitHub:    
+    1.1 Open the repository on GitHub    
+    1.2 Click the button "Clone or download" > download ZIP  
+    1.3 Unpack the ZIP-File
 
-2. Uploaded the project to the host     
-    2.1 Opening the host's server in Cyberduck (cyberduck.io)   
-    2.2 Creating a new folder on the root directory (basicday) and dragged all the files from the downloaded ZIP-file
+2. Upload the project to the host     
+    2.1 Open the host's server in Cyberduck (cyberduck.io)   
+    2.2 Create a new folder on the root directory (basicday) and dragged all the files from the downloaded ZIP-file
 
 ***
 ## Challenges
