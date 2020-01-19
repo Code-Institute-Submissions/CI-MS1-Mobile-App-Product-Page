@@ -422,7 +422,7 @@ footer {
     margin-top: -136px;
 }
 
-/*------------------------------------------------------- Media Queries and Anmiation    */
+/*------------------------------------------------------- Media Queries and Animation    */
 @media screen and (max-width : 992px) {
     .features-preview {
         width: 30vw;
