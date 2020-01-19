@@ -105,7 +105,7 @@ I also tested the links:
 - A click on "Download on the App store" opens a modal view with a link to the contact page. Except if the button is klicked on the contact page.
 - Navigation works, both on a desktop and on mobile
 - A click on the logo opens index.html
-- A klick on the mail icon in the Footer opens the email client
+- A click on the mail icon in the Footer opens the email client
 - A click on the LinkedIn button in the Footer opens my LinkedIn page in a new tab
 
 All browsers display the pages correctly, with one exception: Microsoft Edge displays the page features.html slightly differently. Read the next section (Code) for details.
