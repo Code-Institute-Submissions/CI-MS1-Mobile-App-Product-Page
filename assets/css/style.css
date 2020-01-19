@@ -30,7 +30,7 @@ p {
 /*------------------------------------------------------- Box special    */
 section {
     padding-top: 75px;
-    padding-bottom: 100px;
+    padding-bottom: 134px;
     min-height: 100vh;
 }
 
@@ -77,7 +77,7 @@ h2 {
 
 h3 {
     font-family: 'Blinker', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 23px;
     letter-spacing: 1px;
     padding-bottom: 10px;
@@ -418,8 +418,8 @@ footer {
     padding-top: 15px;
     background-color: #fafafa;
     bottom: 0;
-    height: -110px;
-    margin-top: -104px;
+    height: 136px;
+    margin-top: -136px;
 }
 
 /*------------------------------------------------------- Media Queries and Anmiation    */
@@ -485,6 +485,9 @@ footer {
 }
 
 @media screen and (max-width : 576px) {
+    section {
+        padding-bottom: 210px;
+    }
     h1 {
         font-size: 30px;
     }
@@ -522,9 +525,9 @@ footer {
     }
 
     footer {
-    bottom: 0;
-    height: -210px;
-    margin-top: -190px;
+        bottom: 0;
+        height: 226px;
+        margin-top: -226px;
     }
 }
 
