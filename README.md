@@ -5,7 +5,7 @@ Code Institute Milestone Project: 1 - User-Centric Frontend Development
 This Website is dedicated to an iOS Calendar App which I'm currently developing. The page promotes the App and its features, provides a user manual and contact information.
 
 The live website can be found here:
-(http://www.c-ronics.com/basicday/index.html)
+https://andreasjost.github.io/CI-MS1-Mobile-App-Product-Page/
 ***
 ## UX
 ### User Stories:
@@ -140,6 +140,8 @@ B) I deployed the project on another host (https://www.hetzner.de), taking the f
 2. Upload the project to the host     
     2.1 Open the host's server in Cyberduck (cyberduck.io)   
     2.2 Create a new folder on the root directory (basicday) and dragged all the files from the unpacked ZIP-file
+
+    (http://www.c-ronics.com/basicday/index.html)
 
 ### Create a local repository
 
