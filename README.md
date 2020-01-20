@@ -16,10 +16,10 @@ The live website can be found here:
 Effectively communicate the goal of a specific Calendar App to potential customers, and provide more in-depth information for customers who downloaded the App already.
 
 ### Scope
-Explain why this App is easier and faster to use than other calendar Apps, present the key features, provide an online and downloadable user manual, Provide a contact form for feedback and updates, and show an App Store download link. 
+Explain why this App is easier and faster to use than other calendar Apps, present the key features, provide an online and downloadable user manual, provide a contact form for feedback and updates, and display an "App Store" download link. 
 
 ### Structure
-Use of a common tree structure: Navigation bar and 4 pages which are all accessible from anywhere on the website, answering the following questions:
+Use of a common tree structure: A navigation bar, and 4 pages which are all accessible from anywhere on the website, answering the following questions:
 - Home (*Why?*)
 - Key Features (*What?*)
 - Manual  (*How?*)
@@ -30,12 +30,12 @@ Use of a common tree structure: Navigation bar and 4 pages which are all accessi
 [Wireframes](/Wireframes.pdf)
 
 ### Surface
-The purpouse of the App is to make it easier to use a calendar on the iPhone. Therefore, the design is also very simple and clear, with minimum color and animation, directing the viewer's focus on product images and text. The color theme follows the following pattern:
+The purpouse of the App is to make it easier to use a calendar on iPhone. Therefore, the design is also very simple and clear, with minimum color and animation, directing the viewer's focus on product images and text. The color theme follows the following pattern:
 - Overall theme: Dark
 - Normal text and titles: White
 - Links: White, orange on hover
 - Highlighted: Orange
-- Footer: White background, blue font color (same as the section background). The footer is only very subtile, because the focus of the site should be on the app and it's features, and not on the information about the website.
+- Footer: On one hand, the footer is very subtile (blue font color same as the section background), because the focus of the site should be on the app and it's features, and not on the information about the website. On the other hand, the footer marks clearly the end of the page (white background).
 - at least one element in every section to fade from darkgray to orange when opening the site
 - The colors orange, white and dark grey follow the color theme of the App-icon/logo
 - Fonts: Blinker and Merriweather
@@ -102,11 +102,11 @@ I've used the following Operating Systems and Browsers to check if the Website d
 
 I also tested the links:
 - The "PDF Manual" link opens in a new tab
-- A click on "Download on the App store" opens a modal view with a link to the contact page. Except if the button is klicked on the contact page.
+- A click on "Download on the App store" opens a modal view with a link to the contact page. Except if the button is clicked on the contact page, there's no link.
 - Navigation works, both on a desktop and on mobile
 - A click on the logo opens index.html
 - A click on the mail icon in the Footer opens the email client
-- A click on the LinkedIn button in the Footer opens my LinkedIn page in a new tab
+- A click on the LinkedIn button in the footer opens my LinkedIn page in a new tab
 
 All browsers display the pages correctly, with one exception: Microsoft Edge displays the page features.html slightly differently. Read the next section (Code) for details.
 
@@ -139,7 +139,7 @@ B) I deployed the project on another host (https://www.hetzner.de), taking the f
 
 2. Upload the project to the host     
     2.1 Open the host's server in Cyberduck (cyberduck.io)   
-    2.2 Create a new folder on the root directory (basicday) and dragged all the files from the downloaded ZIP-file
+    2.2 Create a new folder on the root directory (basicday) and dragged all the files from the unpacked ZIP-file
 
 ### Create a local repository
 
