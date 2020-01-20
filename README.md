@@ -5,7 +5,7 @@ Code Institute Milestone Project: 1 - User-Centric Frontend Development
 This Website is dedicated to an iOS Calendar App which I'm currently developing. The page promotes the App and its features, provides a user manual and contact information.
 
 The live website can be found here:
-https://andreasjost.github.io/CI-MS1-Mobile-App-Product-Page/
+https://c-ronics.com/basicday/index.html
 ***
 ## UX
 ### User Stories:
@@ -68,7 +68,7 @@ The purpouse of the App is to make it easier to use a calendar on iPhone. Theref
 - Modal pop-up when clicking/tapping on the App Store link
 
 - Responsive design: Besides minor changes (eg. font size), there are some major layout changes depending on the viewport size:
-    ![table](http://c-ronics.com/course/responsiveDesignTable.png)
+    ![table](https://c-ronics.com/course/responsiveDesignTable.png)
 
 
 ### Planned features
@@ -141,8 +141,6 @@ B) I deployed the project on another host (https://www.hetzner.de), taking the f
     2.1 Open the host's server in Cyberduck (cyberduck.io)   
     2.2 Create a new folder on the root directory (basicday) and dragged all the files from the unpacked ZIP-file
 
-    (http://www.c-ronics.com/basicday/index.html)
-
 ### Create a local repository
 
 This is the GitHub link to the repository: https://github.com/andreasjost/CI-MS1-Mobile-App-Product-Page
@@ -160,7 +158,7 @@ During the development process, I faced the following challenges which I will ta
 - More considerate use of margin and padding: for a lot of elements, margins and padding produces the same visual result. Therefore, the code should be more consistent when using those attributes.
 
 - Keep going back to the purpouse of the site to make design decisions would save time. For example: The Website presents a mobile App. Therefore, a lot of users view the site on a mobile browser - the site doesn't need to squeeze information on the desktop view, as shown in the following example of "features.html":
-    ![before vs. after](http://c-ronics.com/course/before-after.png)
+    ![before vs. after](https://c-ronics.com/course/before-after.png)
 
 - Another challenge was to design the website *and* write code for the actual App in SWIFT, mostly because the design goals are completely different:
     - App: As much information as possible on one screen, so scrolling is not necessary. Make buttons just big enough for finger taps.
